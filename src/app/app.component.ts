@@ -14,6 +14,7 @@ export class AppComponent {
   timerRunning: boolean = false;
   elapsedMs: number = 0;
   private timerIntervalId: any = null;
+  
 
 
   compare(letterRandom:string , letterEnter:string ){
